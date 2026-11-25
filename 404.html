@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Page not found | CaliCannabis</title><meta name="robots" content="noindex"><style>
+:root{--cream:#F3EFE6;--green:#234E31;--green-lt:#2F6640;--slate:#3E4951;--slate-lt:#6A757D;--tan:#D8C49C;--line:#D6CFC0;--white:#FFFDF9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--slate);font:17px/1.6 Inter,"Segoe UI",system-ui,-apple-system,sans-serif}
+h1,h2,h3{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;color:var(--green);line-height:1.15;margin:0 0 .5em;font-weight:600}
+h1{font-size:clamp(2rem,4.5vw,3.2rem)}h2{font-size:clamp(1.5rem,3vw,2.1rem)}h3{font-size:1.15rem}
+a{color:var(--green-lt)}a:hover{color:var(--green)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);background:var(--cream);position:sticky;top:0;z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.brand{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.25rem;color:var(--green);text-decoration:none;font-weight:600}
+.brand small{display:block;font:12px/1.3 Inter,system-ui,sans-serif;color:var(--slate-lt);font-weight:400}
+nav a{color:var(--slate);text-decoration:none;margin-left:18px;font-size:15px}nav a:hover{color:var(--green)}
+@media(max-width:720px){nav{display:none}}
+.hero{padding:72px 0 56px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,var(--white),var(--cream))}
+.hero p.lede{font-size:1.2rem;max-width:760px;color:var(--slate)}
+.cta{display:inline-block;background:var(--green);color:#fff;text-decoration:none;padding:12px 22px;border-radius:6px;font-weight:600;margin:12px 12px 0 0}
+.cta.alt{background:transparent;color:var(--green);border:1.5px solid var(--green)}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:22px}
+.card p{margin:.4em 0 0}
+.steps{counter-reset:s;display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.steps div{position:relative;padding-left:52px}
+.steps div::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:var(--tan);color:var(--green);font-weight:700;display:flex;align-items:center;justify-content:center;font-family:Georgia,serif}
+ul.creds{list-style:none;padding:0;margin:0}ul.creds li{padding:8px 0 8px 26px;position:relative;border-bottom:1px dashed var(--line)}
+ul.creds li::before{content:"";position:absolute;left:4px;top:17px;width:9px;height:9px;border-radius:50%;background:var(--green-lt)}
+.note{background:var(--white);border-left:4px solid var(--tan);padding:14px 18px;border-radius:0 8px 8px 0;margin-top:20px}
+details{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:12px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600;color:var(--green)}details p{margin:10px 0 4px}
+.areas span{display:inline-block;background:var(--white);border:1px solid var(--line);border-radius:999px;padding:4px 12px;margin:4px 6px 4px 0;font-size:14px}
+ul.bounds{list-style:none;padding:0;margin:0;max-width:760px}
+ul.bounds li{padding:9px 0 9px 28px;position:relative;border-bottom:1px dashed var(--line);font-weight:600;color:var(--slate)}
+ul.bounds li::before{content:"";position:absolute;left:4px;top:18px;width:10px;height:10px;border-radius:2px;background:var(--tan)}
+figure.showpiece{margin:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--slate)}
+figure.showpiece img{display:block;width:100%;height:auto;max-height:520px;object-fit:cover}
+figure.showpiece figcaption{padding:14px 20px;font-size:14px;color:var(--slate-lt);background:var(--white);border-top:1px solid var(--line)}
+@media (max-width:640px){figure.showpiece img{max-height:300px}}
+figure.map{margin:26px 0 0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--white)}
+figure.map img{display:block;width:100%;height:auto}
+figure.map figcaption{padding:12px 18px;font-size:14px;color:var(--slate-lt);border-top:1px solid var(--line)}
+.contact{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.contact a{font-weight:600}
+form.ask{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:24px;max-width:760px;margin:0 0 34px}
+form.ask .row{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-bottom:16px}
+form.ask .fld{display:flex;flex-direction:column}
+form.ask label{font-size:14px;font-weight:600;color:var(--green);margin-bottom:5px}
+form.ask label .req{color:var(--slate-lt);font-weight:400}
+form.ask input,form.ask textarea{font:inherit;font-size:16px;color:var(--slate);background:var(--cream);border:1px solid var(--line);border-radius:6px;padding:10px 12px;width:100%}
+form.ask textarea{min-height:120px;resize:vertical}
+form.ask input:focus,form.ask textarea:focus{outline:2px solid var(--green-lt);outline-offset:1px;background:#fff}
+form.ask input:invalid:not(:placeholder-shown){border-color:#a33}
+form.ask .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+form.ask button{font:inherit;font-weight:600;background:var(--green);color:#fff;border:0;border-radius:6px;padding:12px 26px;cursor:pointer}
+form.ask button:hover{background:var(--green-lt)}
+form.ask button[disabled]{opacity:.55;cursor:default}
+form.ask .fine{font-size:13px;color:var(--slate-lt);margin:14px 0 0}
+.asknote{border-radius:8px;padding:14px 18px;margin-top:18px;font-size:15px;display:none}
+.asknote.on{display:block}
+.asknote.ok{background:#EAF2EC;border-left:4px solid var(--green);color:var(--green)}
+.asknote.bad{background:#FBEDEA;border-left:4px solid #A6462F;color:#7C3120}
+.askdone{background:var(--white);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:0 10px 10px 0;padding:24px;max-width:760px;margin:0 0 34px;display:none}
+.askdone.on{display:block}
+.askdone h3{margin-bottom:.35em}
+footer{padding:36px 0 48px;font-size:13px;color:var(--slate-lt)}
+footer p{max-width:900px}footer .net a{margin-right:14px}
+.small{font-size:14px;color:var(--slate-lt)}
+</style></head>
+<body><main><section class="hero"><div class="wrap"><h1>That page is not here.</h1>
+<p class="lede">Everything on this site is on one page. <a href="/">Go to the home page</a> or call 843-455-2949.</p></div></section></main></body></html>

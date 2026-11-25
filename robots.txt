@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://newrootsdev.github.io/calicannabis/sitemap.xml
